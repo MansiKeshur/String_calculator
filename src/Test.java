@@ -78,6 +78,6 @@ public class Test {
 	
 	@org.junit.Test
 	public final void numberIsGreaterThen1000DoNotCountInSum() {
-	    Assert.assertEquals(3+1000+6, StringCalculator.add("3,1012,85,113,1052"));
+	    Assert.assertEquals(3+1012+85+113+1052, StringCalculator.add("3,1012,85,113,1052"));
 	}
 }
